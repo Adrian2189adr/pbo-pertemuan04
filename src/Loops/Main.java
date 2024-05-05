@@ -2,17 +2,13 @@ package Loops;
 
 public class Main {
     public static void main(String[] args) {
-        int isiGelas = 0;
-        int penuh = 225;
+        String matakuliah[];
+        matakuliah = new String[10];
 
-        System.out.println("Isi Gelas Sekarang :" + isiGelas + "ml");
-        System.out.println("Isi Gelas Ketika Penuh :" + penuh + "ml");
-
-        for (isiGelas = 0 ; isiGelas <= penuh ; isiGelas++){
-            System.out.println("Sedang mengisi gelas..");
-            System.out.println("Isi Gelas Sekarang : " + isiGelas + "ml");
-        }
-
-        System.out.println("Finale: Isi Gelas Sekarang : " + isiGelas + "ml");
+        matakuliah[0] = "Pemrograman Berbasis Objek 1";
+        matakuliah[1] = "Visual 2";
+        matakuliah[2] = "Rekayasa Perangkat Lunak";
+        matakuliah[3] = "Organisasi Komputer";
+        matakuliah[4] = "Pemrograman Web 2";
     }
 }
